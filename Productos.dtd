@@ -1,0 +1,11 @@
+<!ELEMENT Productos (Producto)+>
+        <!ELEMENT Producto (Producto | Raton | Teclado | Monitor)>
+        <!ELEMENT Raton (#PCDATA)>
+        <!ATTLIST Raton Codigo CDATA #REQUIRED>
+        <!ATTLIST Raton Nombre CDATA #IMPLIED>
+        <!ELEMENT Teclado (#PCDATA)>
+        <!ATTLIST Teclado Codigo CDATA #REQUIRED>
+        <!ATTLIST Teclado Nombre CDATA #IMPLIED>
+        <!ELEMENT Monitor (#PCDATA)>
+        <!ATTLIST Monitor Codigo CDATA #REQUIRED>
+        <!ATTLIST Monitor Nombre CDATA #IMPLIED>

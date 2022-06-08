@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE Productos SYSTEM "Productos.dtd">
+
+<Productos>
+    <Producto>
+        <Raton Codigo="123">1010</Raton>
+    </Producto>
+    <Producto>
+        <Teclado Codigo="456" Nombre="KlipXtreme">1010</Teclado>
+    </Producto>
+    <Producto>
+        <Monitor Codigo="789" Nombre="">1010</Monitor>
+    </Producto>
+</Productos>
