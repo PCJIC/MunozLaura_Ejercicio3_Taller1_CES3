@@ -2,14 +2,15 @@
 
 <!DOCTYPE Productos SYSTEM "Productos.dtd">
 
-<Productos>
+<Productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Productos.xsd">
     <Producto>
-        <Raton Codigo="123">1010</Raton>
+        <Raton Codigo="123" Nombre="ABC"></Raton>
     </Producto>
     <Producto>
-        <Teclado Codigo="456" Nombre="KlipXtreme">1010</Teclado>
+        <Teclado Codigo="456" Nombre="KlipXtreme"></Teclado>
     </Producto>
     <Producto>
-        <Monitor Codigo="789" Nombre="">1010</Monitor>
+        <Monitor Codigo="789" Nombre="Monitor3000"></Monitor>
     </Producto>
 </Productos>
